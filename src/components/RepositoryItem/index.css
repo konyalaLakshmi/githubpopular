@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.repository-Item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  background-color: white;
+  margin-bottom: 20px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 24px;
+}
+@media (min-width: 576px) {
+  repository-Item {
+    flex-basis: 45%;
+    margin-left: 24px;
+  }
+}
+@media (min-width: 992px) {
+  repository-Item {
+    flex-basis: 30%;
+    margin-left: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  repository-Item {
+    flex-basis: 23%;
+    margin-left: 24px;
+  }
+}
+.img {
+  height: 95px;
+  width: 95px;
+}
+.h1 {
+  font-family: 'Roboto';
+  color: red;
+  font-size: 24px;
+  font-weight: 500;
+}
+.stars-container {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin-bottom: 16px;
+}
+.stars-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+.stars-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: grey;
+  margin: 0px;
+}

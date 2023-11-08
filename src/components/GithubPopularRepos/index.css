@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  border: 0px solid none;
+}
+.heading {
+  font-size: 36px;
+  font-family: 'Lobster';
+  color: black;
+  margin-bottom: 20px;
+}
+.filters-list {
+  display: flex;
+  flex-direction: wrap;
+  list-style-type: none;
+}
+.ul {
+  flex-wrap: wrap;
+  max-width: 1140px;
+  display: flex;
+  list-style-type: none;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  width: 250px;
+  height: 120px;
+}
+.error-msg {
+  color: grey;
+  font-family: 'Bree Serif';
+  font-size: 28px;
+  text-align: center;
+}
+@media screen and(min-width:768px) {
+  .error-msg {
+    color: grey;
+    font-family: 'Bree Serif';
+    font-size: 48px;
+  }
+}
